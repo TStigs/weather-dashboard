@@ -1,0 +1,68 @@
+2026-07-14 11:34:46,935 - INFO - Starting weather data ingestion for all cities...
+2026-07-14 11:34:46,935 - INFO - Performing bulk ingestion for Victoria from 1980-01-01 to 2026-07-12
+2026-07-14 11:34:46,935 - INFO - Querying Open-Meteo API for Victoria from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:15,605 - INFO - Successfully wrote bulk weather data (16995 rows) to data/victoria.csv
+2026-07-14 11:35:15,606 - INFO - Performing bulk ingestion for Vancouver from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:15,606 - INFO - Querying Open-Meteo API for Vancouver from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:24,973 - INFO - Successfully wrote bulk weather data (16995 rows) to data/vancouver.csv
+2026-07-14 11:35:24,974 - INFO - Performing bulk ingestion for Calgary from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:24,974 - INFO - Querying Open-Meteo API for Calgary from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:25,149 - ERROR - Failed bulk ingestion for Calgary: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'reason': 'Minutely API request limit exceeded. Please try again in one minute.', 'error': True}
+2026-07-14 11:35:25,149 - ERROR - Ingestion failed for city: Calgary. Details: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'reason': 'Minutely API request limit exceeded. Please try again in one minute.', 'error': True}
+2026-07-14 11:35:25,149 - INFO - Performing bulk ingestion for Toronto from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:25,149 - INFO - Querying Open-Meteo API for Toronto from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:25,327 - ERROR - Failed bulk ingestion for Toronto: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'reason': 'Minutely API request limit exceeded. Please try again in one minute.', 'error': True}
+2026-07-14 11:35:25,328 - ERROR - Ingestion failed for city: Toronto. Details: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'reason': 'Minutely API request limit exceeded. Please try again in one minute.', 'error': True}
+2026-07-14 11:35:25,328 - INFO - Performing bulk ingestion for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:25,329 - INFO - Querying Open-Meteo API for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:25,512 - ERROR - Failed bulk ingestion for Halifax: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Minutely API request limit exceeded. Please try again in one minute.'}
+2026-07-14 11:35:25,512 - ERROR - Ingestion failed for city: Halifax. Details: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Minutely API request limit exceeded. Please try again in one minute.'}
+2026-07-14 11:35:25,512 - INFO - Ingestion completed. Success: 2, Failures: 3
+2026-07-14 11:35:38,428 - INFO - Starting weather data ingestion for all cities...
+2026-07-14 11:35:38,462 - INFO - Victoria has existing data up to 2026-07-12
+2026-07-14 11:35:38,463 - INFO - Victoria is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:35:38,488 - INFO - Vancouver has existing data up to 2026-07-12
+2026-07-14 11:35:38,488 - INFO - Vancouver is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:35:38,488 - INFO - Performing bulk ingestion for Calgary from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:38,488 - INFO - Querying Open-Meteo API for Calgary from 1980-01-01 to 2026-07-12
+2026-07-14 11:35:56,715 - INFO - Successfully wrote bulk weather data (16995 rows) to data/calgary.csv
+2026-07-14 11:35:56,716 - INFO - Sleeping for 15 seconds to respect API rate limits...
+2026-07-14 11:36:11,722 - INFO - Performing bulk ingestion for Toronto from 1980-01-01 to 2026-07-12
+2026-07-14 11:36:11,723 - INFO - Querying Open-Meteo API for Toronto from 1980-01-01 to 2026-07-12
+2026-07-14 11:36:24,910 - INFO - Successfully wrote bulk weather data (16995 rows) to data/toronto.csv
+2026-07-14 11:36:24,912 - INFO - Sleeping for 15 seconds to respect API rate limits...
+2026-07-14 11:36:39,918 - INFO - Performing bulk ingestion for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:36:39,919 - INFO - Querying Open-Meteo API for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:36:40,102 - ERROR - Failed bulk ingestion for Halifax: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Minutely API request limit exceeded. Please try again in one minute.'}
+2026-07-14 11:36:40,103 - ERROR - Ingestion failed for city: Halifax. Details: failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Minutely API request limit exceeded. Please try again in one minute.'}
+2026-07-14 11:36:40,103 - INFO - Ingestion completed. Success: 4, Failures: 1
+2026-07-14 11:37:14,994 - INFO - Starting weather data ingestion for all cities...
+2026-07-14 11:37:15,033 - INFO - Victoria has existing data up to 2026-07-12
+2026-07-14 11:37:15,033 - INFO - Victoria is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:37:15,060 - INFO - Vancouver has existing data up to 2026-07-12
+2026-07-14 11:37:15,060 - INFO - Vancouver is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:37:15,086 - INFO - Calgary has existing data up to 2026-07-12
+2026-07-14 11:37:15,086 - INFO - Calgary is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:37:15,112 - INFO - Toronto has existing data up to 2026-07-12
+2026-07-14 11:37:15,112 - INFO - Toronto is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:37:15,112 - INFO - Performing bulk ingestion for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:37:15,112 - INFO - Querying Open-Meteo API for Halifax from 1980-01-01 to 2026-07-12
+2026-07-14 11:37:32,328 - INFO - Successfully wrote bulk weather data (16995 rows) to data/halifax.csv
+2026-07-14 11:37:32,330 - INFO - Ingestion completed. Success: 5, Failures: 0
+2026-07-14 11:49:10,438 - INFO - Victoria has existing data up to 2026-07-12
+2026-07-14 11:49:10,440 - INFO - Victoria is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,068 - INFO - Starting weather data ingestion for all cities...
+2026-07-14 11:54:59,101 - INFO - Victoria has existing data up to 2026-07-12
+2026-07-14 11:54:59,101 - INFO - Victoria is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,130 - INFO - Vancouver has existing data up to 2026-07-12
+2026-07-14 11:54:59,130 - INFO - Vancouver is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,157 - INFO - Calgary has existing data up to 2026-07-12
+2026-07-14 11:54:59,157 - INFO - Calgary is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,183 - INFO - Toronto has existing data up to 2026-07-12
+2026-07-14 11:54:59,184 - INFO - Toronto is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,211 - INFO - Halifax has existing data up to 2026-07-12
+2026-07-14 11:54:59,211 - INFO - Halifax is already up to date (Latest: 2026-07-12, Target: 2026-07-12).
+2026-07-14 11:54:59,212 - INFO - Performing bulk ingestion for Penticton from 1980-01-01 to 2026-07-12
+2026-07-14 11:54:59,212 - INFO - Querying Open-Meteo API for Penticton from 1980-01-01 to 2026-07-12
+2026-07-14 11:55:34,921 - INFO - Successfully wrote bulk weather data (16995 rows) to data/penticton.csv
+2026-07-14 11:55:34,923 - INFO - Ingestion completed. Success: 6, Failures: 0
