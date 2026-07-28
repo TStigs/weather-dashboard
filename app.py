@@ -19,7 +19,7 @@ from src.statistics import (
 
 # Set page layout and aesthetics
 st.set_page_config(
-    page_title="Climate Analytics Hub",
+    page_title="Weather Analytics Dashboard",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -140,8 +140,8 @@ if not check_data_exists():
     st.stop()
 
 # Title banner
-st.markdown('<div class="main-title">Weather Analytics Hub</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-title">Decadal Climate Patterns and Anomalies (1980 - Present)</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">Weather Analytics Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">Historical Weather: 1980 - Present</div>', unsafe_allow_html=True)
 
 # Sidebar layout
 st.sidebar.markdown("### Navigation & Settings")
